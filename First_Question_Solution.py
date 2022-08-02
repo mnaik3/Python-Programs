@@ -60,7 +60,7 @@ class Solution:
                 arr_final_new.append(arr_final[i])
 
 
-        #Condition to ignore operators and numnbers greater than 100,000,000 before converting to integer.
+        #Condition to ignore operators and numbers greater than 100,000,000 before converting to integer.
         for i in range (len(arr_final_new)):
             if (arr_final_new[i] != "-"):
                 if (arr_final_new[i] != "+"):

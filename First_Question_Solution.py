@@ -88,14 +88,14 @@ if __name__=="__main__":
             print(obj.add_sub(input_string))
         else:
             break
-        
-        # obj.add_sub(input)
+
+        #Test Cases
 
 
-        #print(obj.add_sub(input = '200 + ((-100500 + 10000) + 2000)') == '-88300')
-        # print(obj.add_sub(input = '-200 + ((-100500 + 10000) + 2000)') == '-88700')
-        # print(obj.add_sub(input = '200 + ((-100_500 + 100_00) + 20_00)') == '-88300')
-        # print(obj.add_sub(input = '200 + ((-100_500 + 100_00) + 20_00 + )'))
-        # print(obj.add_sub(input = '- 200 + ((-100_500 + 100_00) + 20_00)') == '-88700')
+        #print(obj.add_sub(input = '200 + ((-100500 + 10000) + 2000)') == '-88300')     #True
+        # print(obj.add_sub(input = '-200 + ((-100500 + 10000) + 2000)') == '-88700')   #True
+        # print(obj.add_sub(input = '200 + ((-100_500 + 100_00) + 20_00)') == '-88300') #True
+        # print(obj.add_sub(input = '200 + ((-100_500 + 100_00) + 20_00 + )'))          #Invalid String
+        # print(obj.add_sub(input = '- 200 + ((-100_500 + 100_00) + 20_00)') == '-88700')   #True
 
         

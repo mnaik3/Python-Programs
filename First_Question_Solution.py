@@ -82,7 +82,7 @@ if __name__=="__main__":
     obj=Solution()
     cont = 'y'
     while cont == 'y' or cont != 'Y':
-        cont = input('Do you wish to Enter String(y/N): ')
+        cont = input('Do you wish to Enter String(Y/N): ')
         if cont == 'y' or cont== 'Y':
             input_string=input("Please Enter String: ")
             print(obj.add_sub(input_string))
